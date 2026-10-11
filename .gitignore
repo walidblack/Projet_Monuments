@@ -1,0 +1,25 @@
+.env
+.venv/
+env/
+__pycache__/
+*.pyc
+typings/
+datasets/
+dataset_cls/
+originale_data/
+images_test/
+Projet_Monuments/
+**/static/uploads/
+**/static/results/
+azure_config.json
+*.pt
+
+# runs/ est ignoré, sauf le modèle final utilisé par la page web
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/train-3/
+runs/detect/train-3/*
+!runs/detect/train-3/weights/
+runs/detect/train-3/weights/*
+!runs/detect/train-3/weights/best.pt

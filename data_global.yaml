@@ -1,0 +1,22 @@
+path: datasets
+train: train/images
+val: val/images
+
+nc: 15
+
+names:
+  0: "Bab Boujloud"
+  1: "chichen_itza"
+  2: "christ_the_reedemer"
+  3: "eiffel_tower"
+  4: "great_wall_of_china"
+  5: "La Citerne portugaise El Jadida"
+  6: "La mosquee Koutoubia"
+  7: "machu_pichu"
+  8: "Mosquee Hassan 2"
+  9: "pyramids_of_giza"
+  10: "roman_colosseum"
+  11: "statue_of_liberty"
+  12: "stonehenge"
+  13: "taj_mahal"
+  14: "venezuela_angel_falls"
